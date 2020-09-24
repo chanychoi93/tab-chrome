@@ -1,0 +1,11 @@
+{
+  "name": "Too Many Tabs",
+  "version": "1.0",
+  "description": "Extension that renders gifs/memes every tab after 10 tabs are open.",
+  "permissions": ["storage", "tabs", "activeTab", "https://*/*", "http://*/*"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
